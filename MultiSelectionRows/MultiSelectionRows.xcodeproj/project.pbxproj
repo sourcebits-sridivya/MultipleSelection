@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D52BD7B1DAE093B0059405B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52BD7A1DAE093B0059405B /* main.m */; };
+		3D52BD7E1DAE093B0059405B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52BD7D1DAE093B0059405B /* AppDelegate.m */; };
+		3D52BD811DAE093B0059405B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52BD801DAE093B0059405B /* ViewController.m */; };
+		3D52BD841DAE093B0059405B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D52BD821DAE093B0059405B /* Main.storyboard */; };
+		3D52BD861DAE093B0059405B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D52BD851DAE093B0059405B /* Assets.xcassets */; };
+		3D52BD891DAE093B0059405B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D52BD871DAE093B0059405B /* LaunchScreen.storyboard */; };
+		3D52BD941DAE093B0059405B /* MultiSelectionRowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52BD931DAE093B0059405B /* MultiSelectionRowsTests.m */; };
+		3D52BD9F1DAE093B0059405B /* MultiSelectionRowsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52BD9E1DAE093B0059405B /* MultiSelectionRowsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D52BD901DAE093B0059405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D52BD6E1DAE093B0059405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D52BD751DAE093B0059405B;
+			remoteInfo = MultiSelectionRows;
+		};
+		3D52BD9B1DAE093B0059405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D52BD6E1DAE093B0059405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D52BD751DAE093B0059405B;
+			remoteInfo = MultiSelectionRows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D52BD761DAE093B0059405B /* MultiSelectionRows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSelectionRows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D52BD7A1DAE093B0059405B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D52BD7C1DAE093B0059405B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D52BD7D1DAE093B0059405B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D52BD7F1DAE093B0059405B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D52BD801DAE093B0059405B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D52BD831DAE093B0059405B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D52BD851DAE093B0059405B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D52BD881DAE093B0059405B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D52BD8A1DAE093B0059405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D52BD8F1DAE093B0059405B /* MultiSelectionRowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSelectionRowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D52BD931DAE093B0059405B /* MultiSelectionRowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionRowsTests.m; sourceTree = "<group>"; };
+		3D52BD951DAE093B0059405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D52BD9A1DAE093B0059405B /* MultiSelectionRowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSelectionRowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D52BD9E1DAE093B0059405B /* MultiSelectionRowsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionRowsUITests.m; sourceTree = "<group>"; };
+		3D52BDA01DAE093B0059405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D52BD731DAE093B0059405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D52BD8C1DAE093B0059405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D52BD971DAE093B0059405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D52BD6D1DAE093B0059405B = {
+			isa = PBXGroup;
+			children = (
+				3D52BD781DAE093B0059405B /* MultiSelectionRows */,
+				3D52BD921DAE093B0059405B /* MultiSelectionRowsTests */,
+				3D52BD9D1DAE093B0059405B /* MultiSelectionRowsUITests */,
+				3D52BD771DAE093B0059405B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D52BD771DAE093B0059405B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D52BD761DAE093B0059405B /* MultiSelectionRows.app */,
+				3D52BD8F1DAE093B0059405B /* MultiSelectionRowsTests.xctest */,
+				3D52BD9A1DAE093B0059405B /* MultiSelectionRowsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D52BD781DAE093B0059405B /* MultiSelectionRows */ = {
+			isa = PBXGroup;
+			children = (
+				3D52BD7C1DAE093B0059405B /* AppDelegate.h */,
+				3D52BD7D1DAE093B0059405B /* AppDelegate.m */,
+				3D52BD7F1DAE093B0059405B /* ViewController.h */,
+				3D52BD801DAE093B0059405B /* ViewController.m */,
+				3D52BD821DAE093B0059405B /* Main.storyboard */,
+				3D52BD851DAE093B0059405B /* Assets.xcassets */,
+				3D52BD871DAE093B0059405B /* LaunchScreen.storyboard */,
+				3D52BD8A1DAE093B0059405B /* Info.plist */,
+				3D52BD791DAE093B0059405B /* Supporting Files */,
+			);
+			path = MultiSelectionRows;
+			sourceTree = "<group>";
+		};
+		3D52BD791DAE093B0059405B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D52BD7A1DAE093B0059405B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D52BD921DAE093B0059405B /* MultiSelectionRowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D52BD931DAE093B0059405B /* MultiSelectionRowsTests.m */,
+				3D52BD951DAE093B0059405B /* Info.plist */,
+			);
+			path = MultiSelectionRowsTests;
+			sourceTree = "<group>";
+		};
+		3D52BD9D1DAE093B0059405B /* MultiSelectionRowsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D52BD9E1DAE093B0059405B /* MultiSelectionRowsUITests.m */,
+				3D52BDA01DAE093B0059405B /* Info.plist */,
+			);
+			path = MultiSelectionRowsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D52BD751DAE093B0059405B /* MultiSelectionRows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D52BDA31DAE093B0059405B /* Build configuration list for PBXNativeTarget "MultiSelectionRows" */;
+			buildPhases = (
+				3D52BD721DAE093B0059405B /* Sources */,
+				3D52BD731DAE093B0059405B /* Frameworks */,
+				3D52BD741DAE093B0059405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiSelectionRows;
+			productName = MultiSelectionRows;
+			productReference = 3D52BD761DAE093B0059405B /* MultiSelectionRows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D52BD8E1DAE093B0059405B /* MultiSelectionRowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D52BDA61DAE093B0059405B /* Build configuration list for PBXNativeTarget "MultiSelectionRowsTests" */;
+			buildPhases = (
+				3D52BD8B1DAE093B0059405B /* Sources */,
+				3D52BD8C1DAE093B0059405B /* Frameworks */,
+				3D52BD8D1DAE093B0059405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D52BD911DAE093B0059405B /* PBXTargetDependency */,
+			);
+			name = MultiSelectionRowsTests;
+			productName = MultiSelectionRowsTests;
+			productReference = 3D52BD8F1DAE093B0059405B /* MultiSelectionRowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D52BD991DAE093B0059405B /* MultiSelectionRowsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D52BDA91DAE093B0059405B /* Build configuration list for PBXNativeTarget "MultiSelectionRowsUITests" */;
+			buildPhases = (
+				3D52BD961DAE093B0059405B /* Sources */,
+				3D52BD971DAE093B0059405B /* Frameworks */,
+				3D52BD981DAE093B0059405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D52BD9C1DAE093B0059405B /* PBXTargetDependency */,
+			);
+			name = MultiSelectionRowsUITests;
+			productName = MultiSelectionRowsUITests;
+			productReference = 3D52BD9A1DAE093B0059405B /* MultiSelectionRowsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D52BD6E1DAE093B0059405B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MyCompanyName;
+				TargetAttributes = {
+					3D52BD751DAE093B0059405B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3D52BD8E1DAE093B0059405B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3D52BD751DAE093B0059405B;
+					};
+					3D52BD991DAE093B0059405B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3D52BD751DAE093B0059405B;
+					};
+				};
+			};
+			buildConfigurationList = 3D52BD711DAE093B0059405B /* Build configuration list for PBXProject "MultiSelectionRows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D52BD6D1DAE093B0059405B;
+			productRefGroup = 3D52BD771DAE093B0059405B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D52BD751DAE093B0059405B /* MultiSelectionRows */,
+				3D52BD8E1DAE093B0059405B /* MultiSelectionRowsTests */,
+				3D52BD991DAE093B0059405B /* MultiSelectionRowsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D52BD741DAE093B0059405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D52BD891DAE093B0059405B /* LaunchScreen.storyboard in Resources */,
+				3D52BD861DAE093B0059405B /* Assets.xcassets in Resources */,
+				3D52BD841DAE093B0059405B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D52BD8D1DAE093B0059405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D52BD981DAE093B0059405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D52BD721DAE093B0059405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D52BD811DAE093B0059405B /* ViewController.m in Sources */,
+				3D52BD7E1DAE093B0059405B /* AppDelegate.m in Sources */,
+				3D52BD7B1DAE093B0059405B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D52BD8B1DAE093B0059405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D52BD941DAE093B0059405B /* MultiSelectionRowsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D52BD961DAE093B0059405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D52BD9F1DAE093B0059405B /* MultiSelectionRowsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D52BD911DAE093B0059405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D52BD751DAE093B0059405B /* MultiSelectionRows */;
+			targetProxy = 3D52BD901DAE093B0059405B /* PBXContainerItemProxy */;
+		};
+		3D52BD9C1DAE093B0059405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D52BD751DAE093B0059405B /* MultiSelectionRows */;
+			targetProxy = 3D52BD9B1DAE093B0059405B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D52BD821DAE093B0059405B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D52BD831DAE093B0059405B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D52BD871DAE093B0059405B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D52BD881DAE093B0059405B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D52BDA11DAE093B0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D52BDA21DAE093B0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D52BDA41DAE093B0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiSelectionRows/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Divya.MyCompanyName.MultiSelectionRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D52BDA51DAE093B0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiSelectionRows/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Divya.MyCompanyName.MultiSelectionRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D52BDA71DAE093B0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiSelectionRowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Divya.MyCompanyName.MultiSelectionRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiSelectionRows.app/MultiSelectionRows";
+			};
+			name = Debug;
+		};
+		3D52BDA81DAE093B0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiSelectionRowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Divya.MyCompanyName.MultiSelectionRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiSelectionRows.app/MultiSelectionRows";
+			};
+			name = Release;
+		};
+		3D52BDAA1DAE093B0059405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiSelectionRowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Divya.MyCompanyName.MultiSelectionRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiSelectionRows;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3D52BDAB1DAE093B0059405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiSelectionRowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Divya.MyCompanyName.MultiSelectionRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiSelectionRows;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D52BD711DAE093B0059405B /* Build configuration list for PBXProject "MultiSelectionRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D52BDA11DAE093B0059405B /* Debug */,
+				3D52BDA21DAE093B0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D52BDA31DAE093B0059405B /* Build configuration list for PBXNativeTarget "MultiSelectionRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D52BDA41DAE093B0059405B /* Debug */,
+				3D52BDA51DAE093B0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D52BDA61DAE093B0059405B /* Build configuration list for PBXNativeTarget "MultiSelectionRowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D52BDA71DAE093B0059405B /* Debug */,
+				3D52BDA81DAE093B0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D52BDA91DAE093B0059405B /* Build configuration list for PBXNativeTarget "MultiSelectionRowsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D52BDAA1DAE093B0059405B /* Debug */,
+				3D52BDAB1DAE093B0059405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D52BD6E1DAE093B0059405B /* Project object */;
+}
